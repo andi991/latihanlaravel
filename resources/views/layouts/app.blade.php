@@ -100,7 +100,7 @@
 
         <!-- Main Footer -->
         <footer class="main-footer" style="max-height: 100px;text-align: center">
-            <strong>Copyright © 2019 <a href="#">BasisData</a>.</strong> All rights reserved.
+            <strong>Copyright © 2020 <a href="#">Pemograman Web</a>.</strong> All rights reserved.
         </footer>
 
     </div>

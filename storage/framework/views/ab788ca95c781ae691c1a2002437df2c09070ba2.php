@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Teguh Motor</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -13,8 +13,8 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
-                color: #636b6f;
+                background-color: #41959f;
+                color: #ffffff;
                 font-family: 'Raleway', sans-serif;
                 font-weight: 100;
                 height: 100vh;
@@ -43,6 +43,7 @@
 
             .content {
                 text-align: center;
+                font-size:  12;
             }
 
             .title {
@@ -54,17 +55,30 @@
                 padding: 0 25px;
                 font-size: 12px;
                 font-weight: 600;
+                color: #ffffff;
                 letter-spacing: .1rem;
                 text-decoration: none;
                 text-transform: uppercase;
             }
 
             .m-b-md {
-                margin-bottom: 30px;
+                margin-bottom: 20px;
+                font-size: 20;
+            }
+            
+            .font{
+                font-size: 40;
+            
+            }
+
+            .background{
+                background: blue;
+                color: white;
             }
         </style>
     </head>
-    <body>
+    <body background="background">
+        
         <div class="flex-center position-ref full-height">
             <?php if(Route::has('login')): ?>
                 <div class="top-right links">
@@ -78,7 +92,11 @@
             <?php endif; ?>
 
             <div class="content">
-                <div class="title m-b-md">
+
+                <div class="font">
+                Selamat Datang di
+                </div>
+                <div class="title m-b-md font">
                     Sistem Informasi Teguh Motor
                 </div>
             </div>
